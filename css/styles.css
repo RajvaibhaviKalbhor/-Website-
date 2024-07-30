@@ -1,0 +1,296 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #0c0c0c;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 20px;
+    /* border-bottom: #ff6347 3px solid; */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 0.3rem;
+}
+
+.logo img {
+    height: 80px; 
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #6EACDA;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #6EACDA;
+}
+
+footer {
+    background: #0c0c0c;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #6EACDA;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer .footer-links {
+    margin-bottom: 20px;
+}
+
+footer .social-media  {
+    margin-bottom: 20px;
+}
+
+footer .social-media a {
+    color: #6EACDA;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+footer .social-media a:hover {
+    color: #fff;
+}
+
+footer .contact {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+footer .contact a {
+    color: #6EACDA;
+    text-decoration: none;
+}
+
+footer .contact a:hover {
+    color: #fff;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url(bggg.jpeg) no-repeat center center/cover;
+    color: #fff;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero .title{
+    margin: 0;
+    padding: 0;
+    font-size: clamp(10px,100px,190px);
+}
+
+
+.hero p {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.hero .cta {
+    background: #6EACDA;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.hero .cta:hover {
+    background: #6EACDA;
+}
+
+/* About Section */
+.about {
+    background: url(bggg.jpeg) no-repeat center center/cover;
+    color: #fff;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.about p {
+    font-size: 22px;
+    margin-bottom: 110px;
+}
+
+
+/* Events Section */
+.events {
+    background: url(bggg.jpeg) no-repeat center center/cover;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.events h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.event {
+    margin-bottom: 20px;
+}
+
+.event h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.event p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.events .cta {
+    background: #6EACDA;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.events .cta:hover {
+    background: #6EACDA;
+}
+
+
+/* Team Section */
+.team {
+    background: url(bggg.jpeg) no-repeat center center/cover;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.team h3 {
+    color: #fff;
+}
+
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+    flex: 1 1 calc(25% - 40px);
+    max-width: calc(25% - 40px);
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.team-member a {
+    color: #6EACDA;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.team-member a:hover {
+    color: #6EACDA;
+}
